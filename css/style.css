@@ -1,66 +1,61 @@
 /* header */
+header{
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
+
+
 .conteiner1{
     display: flex;
-    min-width: 100px;
-    min-height: 80px;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: center;
-    /* debug */
-    background-color: rgb(4, 246, 250);
+    justify-content: space-between;
+    /* debug
+    background-color: rgb(4, 246, 250); */
     
 }
 
 .logo{
     /* debug */
-        background-color: yellow;
-        border: dashed black 1px;
+        /* background-color: yellow;
+        border: dashed black 1px; */
     justify-content: left;
     display: flex;
     align-items: center;
-    min-width: 10%;
-
 }
-.logo-destro{
-    justify-content: right;
-}
-
 .link{
-   /* debug */
-        background-color: yellow;
-        border: dashed black 1px;
-    min-width: 20%;
     display: flex;
     justify-content: center;
-    
+   
 }
-
-p{
-    margin: 3px;
-}
-
 
 /* main */
 /* container */
 
 .conteiner2{
     display: flex;
-    min-width: 100px;
-    min-height: 100px;
     align-items: center;
-    padding: 50px 50px 50px 50px;
+    padding:40px;
     justify-content: center;
-       /* debug */
-       background-color: rgb(4, 16, 250);
+       /* debug
+       background-color: rgb(4, 16, 250); */
 }
-.bianco{
-    /* debug */
-    background-color: rgb(249, 249, 249);
+.conteiner-tasti{
+    display: flex;
+    justify-content: center;
+    /* debug
+    background-color: rgb(4, 246, 250); */
+    
 }
 .grigio{
     /* debug */
-    background-color: rgb(150, 150, 150);
+    background-color: rgba(240, 240, 240, 0.838);
+    text-align: center;
 }
 .scuro{
     /* debug */
@@ -68,60 +63,69 @@ p{
 }
 .conteiner3{
     display: flex;
-    min-width: 100px;
-    min-height: 100px;
-    align-items:flex-end;
-    padding-left: 30px;
-    padding-right: 30px;
+    min-height: 200px;
+    align-items:flex-start;
     justify-content:center;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    /* debug */
-    background-color: rgb(31, 31, 31);
-    
+    padding: 0px 120px 0 120px;
+    background-color: rgb(31, 31, 31);   
 }
 
 .box1{
-    /* debug */
+    /* debug
         background-color: rgb(217, 0, 255);
-        border: dashed black 1px;
-    width: 50%;
-    height: 400px;
-    justify-content: center;
+        border: dashed black 1px; */
+    text-align: center;
+    align-items: center;
 }
 
 
-.box2{
-    /* debug */
+.foto{
+    /* debug
         background-color: rgb(0, 195, 255);
-        border: dashed black 1px;
-    min-width: 40%;
+        border: dashed black 1px; */
     height: 500px;
-    justify-content: center;
-}
-.box3{
-    /* debug */
-        background-color: rgb(246, 136, 248);
-        border: dashed black 1px;
-    min-width: 15%;
-    height: 500px;
-    justify-content: center;
+    justify-content:flex-start;
+    min-width: 20%;
+    padding-top: 20px;
 }
 
+.descrizione{
+    /* debug
+        background-color: rgb(246, 136, 248);
+        border: dashed black 1px; */
+    height: 500px;
+    min-width: 20%;
+    justify-content:flex-start;
+}
+.destro{
+    text-align: left;
+    word-wrap: break-word;
+    width: 200px;
+    padding-top: 20px;
+}
+.sinistro{
+    text-align: left;
+    word-wrap: break-word;
+    width: 200px;
+    padding-top: 50px;
+}
+.mago{
+    order:1;
+}
 
 .box4{
-    /* debug */
+    /* debug
         background-color: rgb(5, 133, 32);
-        border: dashed black 1px;
-    width: 55%;
-    height: 500px;
+        border: dashed black 1px; */
     justify-content: center;
+    width: 800px;
+    align-items: center;
 }
 
 .box5{
-    /* debug */
+    /* debug
         background-color: rgb(0, 195, 255);
-        border: dashed black 1px;
+        border: dashed black 1px; */
     min-width: 10%;
     height: 500px;
     display: flex;
@@ -130,23 +134,152 @@ p{
 
 /* footer */
 .box6{
-    /* debug */
+    /* debug
         background-color: rgb(0, 195, 255);
-        border: dashed black 1px;
-    min-width: 55%;
+        border: dashed black 1px; */
+    min-width: 100%;
     display: flex;
     justify-content:space-between;
-    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .logo2{
-    /* debug */
+    /* debug
         background-color: rgb(246, 136, 248);
-        border: dashed black 1px;
+        border: dashed black 1px; */
     min-width: 5%;
-    height: 20px;
     justify-content: center;
     align-items: center;
-    
+}
+hr{
+   background-color:rgba(4, 141, 245, 0.956);
+   height: 1px;
+   margin: 0px;
+   width: 50%;
+}
+
+/* style tasti */
+.tasto-accedi{
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+
+}
+.tasto-scarica{
+    background-color: white;
+    border: solid white 1px;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tasto-apri{
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tasto-registrati{
+    background-color:rgba(4, 141, 245, 0.956);
+    border: solid rgba(4, 141, 245, 0.956) 1px;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    margin-bottom: 15px;
+
+
+}
+
+/* style testo */
+
+h1{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+p{
+    color:  white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.testo-box{
+    color: black;
+}
+
+.navigatore{
+    margin: 40px;
+    color:  black;  
+}
+h2{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h3{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: -30px;
+}
+h4{
+    color:  rgba(4, 141, 245, 0.956);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+span{
+    color:  white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+ul{
+   list-style: none;
+   line-height: 30px;
+   margin-top: 40px;
+}
+li{
+    color:  white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.primolista{
+    color:  rgba(4, 141, 245, 0.956);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* immagini */
+.rana{
+    height: 300px;
+}
+.mago{
+    height: 500px;
+}
+.libro{
+    height: 500px;
+}
+.bandiera{
+    width: 25px;
+}
+.icon{
+    margin-top: 10px;
+    letter-spacing: 5px;
 }
