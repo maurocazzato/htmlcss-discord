@@ -3,6 +3,7 @@ header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -121,8 +122,8 @@ header{
 /* style tasti */
 .tasto-accedi{
     background-color: white;
-    border: solid black 1px;
-    border-radius: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
     padding: 10px;
     font-size: 10px;
     color: black;
@@ -136,7 +137,7 @@ header{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: solid white;
-    border-radius: 20%;
+    border-radius: 20px;
     padding: 10px;
     font-size: 12px;
     color: black;
@@ -148,8 +149,7 @@ header{
 .tasto-apri{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid black;
-    border-radius: 20%;
+    border-radius: 20px;
     padding: 10px;
     font-size: 12px;
     color: white;
@@ -159,8 +159,7 @@ header{
 }
 .tasto-registrati{
     background-color:rgba(4, 141, 245, 0.956);
-    border: solid rgba(4, 141, 245, 0.956);
-    border-radius: 20%;
+    border-radius: 20px;
     padding: 10px;
     font-size: 12px;
     font-family:Arial, Helvetica, sans-serif;
@@ -174,7 +173,6 @@ header{
 .tastoblu{
     background-color:rgba(4, 141, 245, 0.956);  
     color: white;
-    margin: 0px;
 }
 
 /* style testo */
